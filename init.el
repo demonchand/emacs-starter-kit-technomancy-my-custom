@@ -76,4 +76,17 @@
 (if (file-exists-p user-specific-dir)
   (mapc #'load (directory-files user-specific-dir nil ".*el$")))
 
+;; Default font size
+;;(set-face-attribute 'default nil :height 110)
+(set-face-attribute 'default nil :height 90)
+
+
+;; Enable the modes by default
+(cua-mode 1)  ;; Multi line select mode enabled
+
+(electric-pair-mode 1) ;; Auto complete for quotes or curly braces
+;; mode enabled
+
+(color-theme-twilight) ;; Default color theme activated
+
 ;;; init.el ends here
