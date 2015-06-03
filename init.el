@@ -89,4 +89,7 @@
 
 (color-theme-twilight) ;; Default color theme activated
 
+;; Initialize neotree
+(global-set-key [f8] 'neotree-toggle)
+
 ;;; init.el ends here
