@@ -6,20 +6,9 @@ should provide a reasonable working environment for anyone using Emacs
 for dynamic languages. It also bundles a number of useful libraries
 that are not distributed with Emacs for various reasons.
 
-The latest version is at http://github.com/technomancy/emacs-starter-kit/
-
-## Learning
-
-This won't teach you Emacs, but it'll make it easier to get
-comfortable. To access the tutorial, press control-h followed by t.
-
-You may also find the [PeepCode Meet Emacs
-screencast](http://peepcode.com/products/meet-emacs) helpful. The
-[Emacs Wiki](http://emacswiki.org) is also very handy.
-
 ## Installation
 
-1. Install GNU Emacs (at least version 22, 23 is preferred)
+1. Install GNU Emacs (at least version 22, 23 or 24 is preferred)
    Use your package manager if you have one.
    Otherwise Mac users may get [some prebuilt binaries](http://emacsformacosx.com/), and
    Windows users can get them [from GNU](http://ftp.gnu.org/pub/gnu/emacs/windows/emacs-23.1-bin-i386.zip).
@@ -66,6 +55,20 @@ ending in ".el" which will allow host-specific configuration. This is
 where you should put code that you don't think would be useful to
 everyone. That will allow you to merge with newer versions of the
 starter-kit without conflicts.
+
+## Default Settings
+
+CUA mode acitve(Multiline selector)
+
+Electric pari mode active (Auto complete for quotes, curly braces like
+etc....)
+
+Default Color theme is Twilight
+
+Neotree (for tree view directory structure) F8 key has set has
+neotree-toggle tree.
+
+Feel free to customize and use it.
 
 ## Emacs Lisp Package Archive
 
@@ -115,8 +118,6 @@ works. Grep the project for TODO for other things.
 
 Files are licensed under the same license as Emacs unless otherwise
 specified. See the file COPYING for details.
-
-The latest version is at http://github.com/technomancy/emacs-starter-kit/
 
 On Unix, /home/$USER/.emacs.d, on windows Documents and Settings/%your
 user name%/Application Data
